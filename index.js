@@ -1,5 +1,5 @@
 let btnRef= document.querySelectorAll(".button-option");
-let popupRef= document.querySelector(".popup");
+let popupRef= document.querySelector(".wrap");
 let newgameBtn= document.getElementById("new-game");
 let restartBtn= document.getElementById("restart");
 let msgRef= document.getElementById("message");
@@ -67,9 +67,9 @@ restartBtn.addEventListener("click", ()=>{
 const winChecker = () => {
     for (let i of winningPattern) {
       let [element1, element2, element3] = [
-        btnRef[i[0]].innerText,
-        btnRef[i[1]].innerText,
-        btnRef[i[2]].innerText,
+        btnRef[i[0]].innerText, // X
+        btnRef[i[1]].innerText, // X
+        btnRef[i[2]].innerText, // X`
       ];
       if (
         element1 != "" &&

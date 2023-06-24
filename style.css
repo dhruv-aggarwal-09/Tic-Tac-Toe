@@ -102,3 +102,35 @@ html {
 .wrap.hide {
     visibility: hidden;
 }  
+.button-option {
+    /* Existing styles */
+  
+    /* Add transition property for animation */
+    transition: transform 0.2s;
+}
+  
+.button-option:active {
+    /* Apply the clicking animation */
+    transform: scale(0.9);
+}
+#restart,
+#new-game {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  margin: 1.5rem auto 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#restart:hover,
+#new-game:hover {
+  background-color: #17064e;
+}
+
+  

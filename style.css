@@ -9,7 +9,12 @@ body {
     height: 100vh;
     background: salmon; 
 }
-
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
 html {
     font-size: 16px;
 }
@@ -50,6 +55,7 @@ html {
     position: relative;
     margin: 1.5rem auto 0 auto;
     display: block;
+    cursor: pointer;
 }
 
 .popup {
@@ -84,6 +90,7 @@ html {
     color: #ffffff;
     border-radius: 0.2px;
     border: none;
+    cursor: pointer;
 }
 
 #message{
